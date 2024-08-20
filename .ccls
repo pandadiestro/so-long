@@ -1,0 +1,8 @@
+gcc
+-Wall
+-Wextra
+-Wno-unused-result
+-pedantic
+-Iinclude/
+-ggdb
+
