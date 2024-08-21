@@ -16,7 +16,11 @@ Basically, if my cool kid metaphor wasn't enough, you know that moment where you
 ## How 2 use?
 
 ```
-so-long -p [port | mandatory!] -s [signal | default:9] -p (print-mode | default:0) -v (verbose-mode | default:0)
+so-long
+    -p [port | mandatory!]
+    -s [signal | default:9]
+    -p (print-mode | default:0)
+    -v (verbose-mode | default:0)
 ```
 
 Where `port` is the only mandatory argument and `signal` represents any valid signal (check your `/usr/include/signal.h`, `/usr/include/asm/signal.h` and `/usr/include/asm/siginfo.h` header files for valid signal int codes). Also, as per right now, the `verbose-mode` flag does nothing at all, it should print more information or something but I'll see what the best fit is for that flag.
@@ -25,5 +29,5 @@ Where `port` is the only mandatory argument and `signal` represents any valid si
 
 Yeah this was initially tought as a drop-in replacement for the kill-port npm package, so there's still a long way ahead before I can distribute this as such. By now, it will stay as a stand-alone POSIX-C-compliant application (sorry winheads ¯\\\_(ツ)\_/¯).
 
-What I'm going to be activelly looking in to is being able to compile this as a distributable WASM blob (as per the npm package problem).
+What I'm going to be actively looking in to is actually being able to compile this as a distributable WASM blob (as per the npm package problem).
 
