@@ -2,7 +2,9 @@
 *and thanks for all the service, heh*
 
 <div style="text-align: center;">
+
 ![](./doc/media/callao.png)
+
 </div>
 
 > *En el mundo en que yo vivo, siempre hay cuatro esquinas*
